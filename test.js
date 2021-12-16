@@ -1,4 +1,5 @@
     var attachmentForUser = <user_information>;
+    
     function setConciergeAttachment(attachment) {
         if (window.capacityConcierge) {
             window.capacityConcierge.set_attachment(attachment);
