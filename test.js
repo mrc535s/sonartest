@@ -7,6 +7,7 @@
     document.addEventListener("DOMContentLoaded", function () {
         setConciergeAttachment(attachmentForUser);
     });
+
     var targetResponsePartial = "The agent has ended the chat."; // Response text for the script to listen to, only needs to be a partial match
     var inquiry = "live chat survey"; // Inquiry to trigger
     var isSilentInquiry = true; // Whether the inquiry chat bubble should be displayed
